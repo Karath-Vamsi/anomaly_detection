@@ -1,1 +1,3 @@
-# anomaly_detection
+# Detecting anomalous ECG's using an Autoencoder
+
+Developed an anomaly detection model using neural networks with TensorFlow Keras to identify anomalous ECG signals. Downloaded and preprocessed the ECG dataset, splitting it into training and testing sets. Designed and trained an autoencoder model, optimizing it to differentiate between normal and anomalous data patterns. Evaluated the model performance using mean absolute error (MAE) as the loss metric and visualized training and validation loss with matplotlib. The model successfully detects anomalies, demonstrating its potential effectiveness in real-world ECG monitoring scenarios.
